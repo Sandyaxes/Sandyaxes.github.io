@@ -24,16 +24,6 @@
       --normal-font-size: 1rem;
     }
   }
-  /*
-  :root{
-    --mb-1: 0.5rem;
-    --mb-2: 1rem;
-    --mb-3: 1.5rem;
-    --mb-4: 2rem;
-    --mb-5: 2.5rem;
-    --mb-6: 3rem;
-  }
-  */
 
   :root{
     --mb-1: 1rem;
@@ -316,6 +306,10 @@
   a:active{
     color: #ff7c35;
   }
+
+a:hover {
+  color: #fff;
+}
   
   .work__container{
     row-gap: 2rem;
