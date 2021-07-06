@@ -24,7 +24,7 @@
       --normal-font-size: 1rem;
     }
   }
-  
+  /*
   :root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
@@ -32,6 +32,16 @@
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+  }
+  */
+
+  :root{
+    --mb-1: 1rem;
+    --mb-2: 1.5rem;
+    --mb-3: 2rem;
+    --mb-4: 2.5rem;
+    --mb-5: 3rem;
+    --mb-6: 3.5rem;
   }
 
 :root{
@@ -298,6 +308,14 @@
   .skills__img{
     border-radius: .5rem;
   }
+
+  .text-color{
+    color: var(--first-color);
+  }
+
+  a:active{
+    color: #ff7c35;
+  }
   
   .work__container{
     row-gap: 2rem;
@@ -314,6 +332,7 @@
   .work__img img{
     transition: 1s;
     cursor: pointer;
+    color: var(--first-color);
   }
   .work__img img:hover{
     transform: scale(1.1);
@@ -330,6 +349,11 @@
     border:1.5px solid #ff7c35;
     outline: none;
     margin-bottom: var(--mb-4);
+  }
+
+  .contact__in{
+    text-align: center;
+    color: #fff;
   }
   .contact__button{
     display: block;
