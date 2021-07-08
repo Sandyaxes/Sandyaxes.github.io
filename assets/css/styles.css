@@ -253,6 +253,7 @@
   }
   .skills__text{
     margin-bottom: var(--mb-4);
+      font-size: 2rem;
   }
   .skills__data{
     display: flex;
