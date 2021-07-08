@@ -400,6 +400,7 @@ a:hover {
     .nav__list{
       display: flex;
       padding-top: 0;
+      font-size: larger;
     }
     .nav__item{
       margin-left: var(--mb-6);
