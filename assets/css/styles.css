@@ -236,6 +236,9 @@
   .about__subtitle{
     margin-bottom: var(--mb-2);
   }
+.about__text{
+    font-size: 1.5rem;
+}
   .about__img{
     justify-self: center;
   }
