@@ -381,6 +381,7 @@ a:hover {
     font-size: 1.5rem;
     color: #fff;
     margin: 0 var(--mb-2)
+    padding-left: 3em;
   }
   
   @media screen and (min-width: 768px){
